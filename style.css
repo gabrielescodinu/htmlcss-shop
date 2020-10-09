@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  text-align: center;
+  padding: 20px;
+}
+
+.product {
+  position: relative;
+  display: inline-block;
+}
+
+.product:hover .heart {
+  display: block;
+}
+
+.discount1 {
+  position: absolute;
+  background: green;
+  right: 0;
+}
+.discount2 {
+  position: absolute;
+  background: red;
+  right: 0;
+}
+
+.heart {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  display: none;
+}
